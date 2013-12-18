@@ -1,5 +1,6 @@
 An embeddable widget to search the Digital Public Library of America collections.
 It's written in pure JavaScript and CSS.  It has no external dependencies on libraries such as JQuery or Twitter Bootstrap.
+Nor do you need a DPLA API key.
 Simply add the following to your page:
 
 ```html
@@ -11,14 +12,18 @@ Then before the closing body tag add:
 <script type="text/javascript" src="dpla-search-widget.js"></script>
 ```
 
-You'll need to adjust the src path to wherever dpla-search-widget.js script lives on your server.
+You'll need to adjust the src path to wherever the dpla-search-widget.js script lives on your server.
 
 You'll also need to adjust line 3 of dpla-search-widget.js
 ```javascript
 css.href = 'dpla-search-widget.css';
 ```
 
-to reflect where script lives on your server.
+to reflect where the script lives on your server.
+
+It should look like this:
+
+![alt tag](widget.png)
 
 If there's any interest in the widget a configuration object can be added to make the widget easier to set up.
 
