@@ -1,0 +1,32 @@
+#dpla_search_widget {
+    width: 20%;
+}
+#dpla_search_widget,
+#dpla_search_widget input[type=text],
+#dpla_search_widget input[type=submit] {
+    border: 1px solid lightgray;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#dpla_search_widget h5 {
+    text-align: center;
+}
+
+#dpla_search_widget form {
+    padding: 0 0 10px 10px;
+}
+
+#dpla_search_widget input[type=text] {
+    font-size: .8em;
+    height: 25px;
+}
+
+#dpla_search_widget input[type=submit] {
+    color: white;
+    font-size: .8em;
+    background-color: blue;
+    border-color: blue;
+    margin-left: 5px;
+}
