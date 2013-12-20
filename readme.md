@@ -23,7 +23,7 @@ to reflect where the script lives on your server.
 
 It should look like this:
 
-![alt tag](https://raw.github.com/lfarrell/DPLA-Search-Widget/master/widget.png)
+![alt tag](https://raw.github.com/joshwilsonnc/DPLA-Search-Widget/cssdev/dpla-widget.png)
 
 If there's any interest in the widget a configuration object can be added to make the widget easier to set up.
 
