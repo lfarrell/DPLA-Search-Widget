@@ -7,27 +7,31 @@ Simply add the following to your page:
 <div id="dpla_search_widget"></div>
 ```
 
-Then before the closing body tag add:
+Then before the closing body tag or in the head tag add:
 ```html
 <script type="text/javascript" src="dpla-search-widget.js"></script>
 ```
 
 You'll need to adjust the src path to wherever the dpla-search-widget.js script lives on your server.
 
-You'll also need to adjust lines 3 and 11 of dpla-search-widget.js
+You'll also need to adjust the paths of the css and DPLA image in dpla-search-widget.js.  Enter the paths in the
+configuration object, DPLAWidgetConfig in line one of dpla-search-widget.
+
 ```javascript
-css.href = 'dpla-search-widget.css';
-.
-.
-widgetImg.src = 'dpla-search-widget-logo.png';
+var DPLAWidgetConfig = {
+            css_href: 'path/to/dpla-search-widget.css',
+            dpla_logo: 'path/to/dpla-search-widget-logo.png'
+};
 ```
 
 to reflect where the script lives on your server.
+
+There is also a minified version of the JavaScript file that you can use.
 
 It should look like this:
 
 ![alt tag](https://raw.github.com/joshwilsonnc/DPLA-Search-Widget/cssdev/dpla-widget.png)
 
-If there's any interest in the widget a configuration object can be added to make the widget easier to set up.
+
 
 See search_widget.html for an example setup.
