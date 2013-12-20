@@ -15,7 +15,7 @@ Then before the closing body tag or in the head tag add:
 You'll need to adjust the src path to wherever the dpla-search-widget.js script lives on your server.
 
 You'll also need to adjust the paths of the css and DPLA image in dpla-search-widget.js.  Enter the paths in the
-configuration object, DPLAWidgetConfig in line one of dpla-search-widget.
+configuration object, DPLAWidgetConfig in line one of dpla-search-widget.js.
 
 ```javascript
 var DPLAWidgetConfig = {
