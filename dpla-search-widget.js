@@ -1,6 +1,6 @@
 var DPLAWidgetConfig = {
-            css_href: 'dpla-search-widget.css',
-            dpla_logo: 'dpla-search-widget-logo.png'
+            css_href: 'http://dp.la/info/wp-content/uploads/2013/12/dpla-search-widget.css',
+            dpla_logo: 'http://dp.la/info/wp-content/uploads/2013/12/dpla-search-widget-logo.png'
 };
 
 
