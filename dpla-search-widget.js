@@ -1,6 +1,6 @@
 ;(function() {
     var css = document.createElement('link');
-    css.href = 'dpla/DPLA-Search-Widget/dpla-search-widget.css';
+    css.href = 'dpla-search-widget.css';
     css.type = 'text/css';
     css.rel = 'stylesheet';
 
@@ -8,7 +8,7 @@
     headTag.appendChild(css);
 
     var widgetImg = document.createElement('img');
-    widgetImg.src = 'dpla/DPLA-Search-Widget/dpla-search-widget-logo.png';
+    widgetImg.src = 'dpla-search-widget-logo.png';
     widgetImg.title = 'Search the DPLA!';
     widgetImg.alt = 'Search the DPLA!';
 
