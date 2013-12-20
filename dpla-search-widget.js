@@ -1,6 +1,12 @@
-;(function() {
+var DPLAWidgetConfig = {
+            css_href: 'dpla-search-widget.css',
+            dpla_logo: 'dpla-search-widget-logo.png'
+};
+
+
+;(window.onload = function() {
     var css = document.createElement('link');
-    css.href = 'dpla-search-widget.css';
+    css.href = DPLAWidgetConfig.css_href;
     css.type = 'text/css';
     css.rel = 'stylesheet';
 
@@ -8,7 +14,7 @@
     headTag.appendChild(css);
 
     var widgetImg = document.createElement('img');
-    widgetImg.src = 'dpla-search-widget-logo.png';
+    widgetImg.src = DPLAWidgetConfig.dpla_logo;
     widgetImg.title = 'Search the DPLA!';
     widgetImg.alt = 'Search the DPLA!';
 
