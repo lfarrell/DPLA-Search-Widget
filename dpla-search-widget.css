@@ -44,5 +44,7 @@
     background-color: #739AAE;
     margin-left: 5px;
     width: 60px;
-    height: 25px;    
+    height: 25px;
+    padding: 0;
+    text-transform: none;
 }
