@@ -35,3 +35,5 @@ It should look like this:
 
 
 See search_widget.html for an example setup.
+
+Using Wordpress?  Try the dpla search widget plugin for Wordpress:  [This link](https://github.com/lfarrell/Wordpress-DPLA-Search-Widget-Plugin)
